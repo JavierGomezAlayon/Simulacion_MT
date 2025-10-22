@@ -27,7 +27,6 @@ Dato recoger_parametro(int numero_argumentos, char *argv[]) {
   const std::string kH = "-h";
   switch (numero_argumentos) {
     case 1:
-      std::cerr << "Error: No se han introducido los argumentos necesarios" << std::endl;
       mostrar_ayuda_resumida();
       datos.correcto = false;
       return datos;
