@@ -49,17 +49,17 @@ Dato recoger_parametro(int numero_argumentos, char *argv[]) {
  * @brief Muestra una ayuda detallada del programa
  */
 void mostrar_ayuda() {
-  std::cout << "\nEste programa se encarga de realizar la simulación de un autómata de vaciado de pila." << std::endl;
-  std::cout << "El programa recibe como argumento la dirección relativa + el nombre del fichero que contiene los parámetros necesarios para instanciar el APv" << std::endl;
-  std::cout << "Usage: ./Automata_pila path/fichero " << std::endl;
-  std::cout << "Para más información sobre el contenido del fichero a introducir consulte el README.md" << std::endl;
+  std::cout << "\nEste programa se encarga de realizar la simulación de una máquina de turing" << std::endl;
+  std::cout << "El programa recibe como argumento la dirección relativa + el nombre del fichero que contiene los parámetros necesarios para instanciar la MT" << std::endl;
+  std::cout << "Usage: ./Maquina_turing path/fichero " << std::endl;
+  std::cout << "Para más información consulte el README.md" << std::endl;
 }
 
 /**
  * @brief Muestra una ayuda resumida del programa
  */
 void mostrar_ayuda_resumida() {
-  std::cout << "\nUsage: ./Automata_pila path/fichero.txt" << std::endl;
+  std::cout << "\nUsage: ./Maquina_turing path/fichero.txt" << std::endl;
   std::cout << "Usa el parámetro -h para más información" << std::endl;
 }
 
